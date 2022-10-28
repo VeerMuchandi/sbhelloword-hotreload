@@ -12,7 +12,7 @@ build:
       - --no-transfer-progress
       - -Psync
       - -DskipTests
-      fromImage: gcr.io/distroless/java:debug
+      fromImage: gcr.io/distroless/java17-debian11:debug
     sync:
       auto: true
 deploy:
